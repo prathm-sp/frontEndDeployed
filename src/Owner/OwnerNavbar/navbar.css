@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+a {
+  font-size: 20px;
+  color: #584e4a;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+a:before,
+a:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: black;
+  color: red;
+}
+.navbar__container__home .navbar__menu__home .navbar__li:hover .navbar__span {
+  color: black;
+}
+
+a:before {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+a:after {
+  opacity: 0;
+  transform: translateY(4px);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0.2s;
+}
+a:hover:before,
+a:focus:before,
+a:hover:after,
+a:focus:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+a:hover:before,
+a:focus:before {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0.2s;
+}
+
+a:hover:before,
+a:focus:before,
+a:hover:after,
+a:focus:after {
+  opacity: 0;
+  transform: none;
+}
+a:hover:after,
+a:focus:after {
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    opacity 0s 0.2s;
+}
+
+.navbar__container__home {
+  width: 83%;
+  height: auto;
+  line-height: 80px;
+  background: transparent;
+  border: none;
+  bottom: 76vh;
+  text-decoration: none;
+}
+
+.navbar__container__home .navbar__menu__home {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+.navbar__container__home .navbar__menu__home .navbar__li {
+  list-style: none;
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.navbar__container__home .navbar__menu__home .navbar__li .navbar__span {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}

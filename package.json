@@ -1,0 +1,74 @@
+{
+  "name": "login-page-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^23.1.0",
+    "@ckeditor/ckeditor5-react": "^3.0.0",
+    "@hookform/resolvers": "^1.0.1",
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@react-google-maps/api": "^1.13.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "google-maps-react": "^2.0.6",
+    "history": "^5.0.0",
+    "libphonenumber-js": "^1.9.4",
+    "markdown-it": "^12.0.3",
+    "marked": "^1.2.6",
+    "mdbreact": "^5.0.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-calendar": "^3.2.1",
+    "react-confetti": "^6.0.0",
+    "react-dom": "^17.0.1",
+    "react-dropzone": "^11.2.4",
+    "react-geocode": "^0.2.2",
+    "react-google-autocomplete": "^1.2.6",
+    "react-google-maps": "^9.4.5",
+    "react-hook-form": "^6.11.2",
+    "react-html-parser": "^2.0.2",
+    "react-markdown-editor-lite": "^1.2.2",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-simple-image-slider": "^2.0.1",
+    "react-toastify": "^6.2.0",
+    "redux": "^4.0.5",
+    "sweetalert2": "^10.10.1",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.30.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.6"
+  }
+}

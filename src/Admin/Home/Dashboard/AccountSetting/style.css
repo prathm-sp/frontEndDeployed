@@ -1,0 +1,298 @@
+.sub__setting > label {
+  font-size: 12px;
+}
+
+.sub__setting > button {
+  background: none;
+  color: black;
+  padding: 6px;
+  width: 17vw;
+  margin: 1vh;
+}
+
+.selected__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-width: 487px;
+}
+
+.sub__setting {
+  background: #e2e2e2;
+  padding: 3vw;
+  border-radius: 28px;
+}
+
+.selected__input > label {
+  font-weight: bolder;
+}
+
+.selected__input > input {
+  background-color: #eee;
+  width: 60%;
+  text-align: center;
+}
+
+.selected__input > span {
+  font-weight: bolder;
+  font-size: 19px;
+  cursor: pointer;
+  padding-bottom: 12px;
+}
+
+#Account__setting__popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#confirm__delete__popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#Account__setting__popup.active {
+  background-color: white;
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  border-radius: 25px;
+  padding: 49px;
+}
+
+.confirm__delete > span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.selected__input__form__button {
+  background: none;
+  color: black;
+  padding: 6px;
+  width: 17vw;
+  margin: 1vh;
+}
+
+#confirm__delete__popup.active__delete {
+  background-color: white;
+  top: 50%;
+  visibility: visible;
+  border-radius: 26px;
+  opacity: 1;
+  transition: 0.5s;
+  padding: 49px;
+}
+
+.sub__setting#Account__setting__blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sub__setting > input {
+  cursor: no-drop;
+}
+
+.sub__setting > button:hover {
+  background: #ff4b2b;
+}
+
+.Account__setting {
+  position: relative !important;
+  top: 10vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+  background: transparent !important;
+}
+
+.sub__setting > label {
+  font-size: 12px;
+}
+
+.sub__setting > button:hover {
+  color: white !important;
+}
+
+.selected__input__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-width: 487px;
+}
+.sub__setting {
+  background: #e2e2e2;
+}
+#delete {
+  width: 58%;
+  padding: 12px;
+  /* align-self: center; */
+  position: relative;
+  left: 4vw;
+  background-color: #ff4b2b;
+  color: #ffffff;
+}
+
+.confirm__delete > span {
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.selected__input__form__button {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  position: relative;
+  top: 2vh;
+}
+
+.selected__input__form__button:hover {
+  color: black !important;
+  background: white !important;
+}
+
+#confirm__delete__popup.active__delete {
+  background-color: white;
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  display: flex;
+  padding: 49px;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+  align-items: center;
+}
+
+#delete:hover {
+  background-color: white;
+  color: black;
+}
+
+.selected__input__form > button {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: white;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+.selected__input__form > button:hover {
+  background-color: white;
+  color: black;
+}
+
+.selected__input__form > label {
+  font-weight: bolder;
+}
+
+.selected__input__form > input {
+  cursor: no-drop;
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 20px;
+}
+
+.selected__input__form > span {
+  font-weight: bolder;
+  font-size: 19px;
+  cursor: pointer;
+  padding-bottom: 12px;
+}
+
+#Account__setting__popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#Account__setting__popup.active {
+  background-color: white;
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  padding: 49px;
+}
+
+.sub__setting#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sub__setting > input {
+  cursor: no-drop;
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 20px;
+}
+/* 
+.sub__setting > button:hover {
+  background: white;
+  color: #ff4b2b;
+} */
+
+.Account__setting {
+  position: relative;
+  top: 10vh;
+  background: #e2e2e2;
+  width: 43vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}

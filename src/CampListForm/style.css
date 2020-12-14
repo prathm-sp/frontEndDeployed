@@ -1,0 +1,119 @@
+.Owner__Camp__Item {
+  padding: 10px !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #dddddd !important;
+}
+
+.MuiTypography-body1 {
+  font-size: 1.4rem !important;
+  font-weight: bolder !important;
+}
+
+.MuiSvgIcon-root:focus {
+  border: none;
+}
+
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  border: 1px solid white !important;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.formBody {
+  background-image: url(https://images7.alphacoders.com/101/thumb-1920-1011523.jpg);
+  color: #babec4;
+  font-size: 21px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.formBody > input {
+  border: 3px solid white !important;
+  border-radius: 17px;
+  color: white !important;
+}
+
+.MuiInputBase-root {
+  color: white !important;
+}
+
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+  border-color: var(--ck-color-base-border);
+  background: transparent !important;
+  color: white !important;
+}
+
+.ck.ck-reset_all,
+.ck.ck-reset_all * {
+  color: white !important;
+}
+
+.ck.ck-toolbar {
+  background: none !important;
+  color: white !important;
+}
+
+.ck.ck-editor__main > .ck-editor__editable {
+  background: none !important;
+  color: white !important;
+}
+
+.mainHeader {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  background: linear-gradient(45deg, #ffffff, transparent);
+  padding: 13px;
+  border-radius: 24px;
+  border: 1px solid black;
+}
+
+.link1:focus:hover:visited:link:active,
+.link1 {
+  text-decoration: none !important;
+}
+
+.subHeader {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background: transparent;
+  padding: 13px;
+  border-radius: 24px;
+  border: 1px solid white;
+}
+
+.subHeader:hover {
+  background: linear-gradient(45deg, #ffffff, transparent);
+
+  border: 1px solid black;
+  color: black;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+input:focus::before::after:active {
+  background: transparent;
+}
+input[type="search"]:focus::before::after:active {
+  background: transparent; /* oranges! yey */
+  border: none;
+  outline: none;
+}
+
+#spinner1 {
+  visibility: hidden;
+}
+
+#spinner1.active {
+  visibility: visible !important;
+}

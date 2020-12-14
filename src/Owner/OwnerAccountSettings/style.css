@@ -1,0 +1,86 @@
+.sub__setting > label {
+  font-size: 12px;
+}
+
+.sub__setting > button {
+  background: none;
+  color: black;
+  padding: 6px;
+  width: 7vw;
+  margin: 1vh;
+}
+
+.selected__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-width: 487px;
+}
+
+.selected__input > label {
+  font-weight: bolder;
+}
+
+.selected__input > input {
+  background-color: #eee;
+  width: 60%;
+  text-align: center;
+}
+
+.selected__input > span {
+  font-weight: bolder;
+  font-size: 19px;
+  cursor: pointer;
+  padding-bottom: 12px;
+}
+
+#popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#popup.active {
+  background-color: white;
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  padding: 49px;
+}
+
+.sub__setting#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sub__setting > input {
+  cursor: no-drop;
+  background: transparent;
+  color: white !important;
+  font-weight: bolder;
+  border: 1px solid wheat;
+}
+/* 
+.sub__setting > button:hover {
+  background: #ff4b2b;
+} */
+
+.Account__setting {
+  position: relative;
+  top: 10vh;
+}

@@ -1,0 +1,7 @@
+#linkre {
+  text-decoration: none;
+}
+
+.navbar__span:hover {
+  color: #d2bfda !important;
+}

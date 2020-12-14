@@ -1,0 +1,54 @@
+.verfiy__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 44vh;
+  width: 55%;
+  border-radius: 38px;
+  text-align: center;
+}
+
+.verfiy__form > span {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.verfiy__form > span > input {
+  width: 34%;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background: transparent;
+  height: 6vh;
+  font-weight: bolder;
+  border: 2px solid white;
+  color: white;
+}
+
+.verfiy__form > button {
+  align-self: center;
+  border-radius: 20px;
+  color: wheat;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  text-align: center !important;
+  background: transparent;
+}
+
+.verfiy__form > button:hover {
+  background: transparent;
+  color: black;
+  border: 1px solid;
+}
+
+.verfiy__form {
+  background: linear-gradient(45deg, black, transparent);
+  color: wheat !important;
+}

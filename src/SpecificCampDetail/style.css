@@ -1,0 +1,222 @@
+.camp-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  top: -33px;
+  z-index: 2;
+  padding: 25px 30px;
+  background: linear-gradient(45deg, black, transparent) 0% 0% / cover;
+  border-bottom: 1px solid #dbdbdb;
+  color: white !important;
+  -webkit-box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+  min-height: 230px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+.fixed-pos {
+  position: fixed;
+  top: 79px;
+  width: 360px;
+}
+.camp-booking-block {
+  position: absolute;
+  background-color: #ffffff;
+  width: 461px;
+  float: right;
+  z-index: 2;
+  top: -33px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.user agent stylesheet div {
+  display: block;
+}
+.Amenities {
+  margin-top: 250px;
+}
+
+.work {
+  font-size: 15px;
+  margin: 10px;
+  width: 68.5%;
+  z-index: 2;
+  padding: 25px 30px;
+  background: linear-gradient(45deg, black, transparent) 0% 0% / cover !important;
+  color: white !important;
+  border-bottom: 1px solid #dbdbdb;
+  -webkit-box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+}
+.Description {
+  z-index: 2;
+  padding: 25px 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  -webkit-box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+}
+.work1 {
+  font-size: 15px;
+
+  margin: 10px;
+  z-index: 2;
+  padding: 25px 30px;
+  background: linear-gradient(45deg, black, transparent) 0% 0% / cover !important;
+  color: white !important;
+  border-bottom: 1px solid #dbdbdb;
+  -webkit-box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+}
+.work2 {
+  margin: 10px;
+  z-index: 2;
+  padding: 25px 30px;
+  background: linear-gradient(45deg, black, transparent) 0% 0% / cover !important;
+  color: white !important;
+  border-bottom: 1px solid #dbdbdb;
+  -webkit-box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+}
+.work4 {
+  font-size: 15px;
+  z-index: 2;
+  padding: 25px 30px;
+  background: linear-gradient(45deg, black, transparent) 0% 0% / cover !important;
+  color: white !important;
+  border-bottom: 1px solid #dbdbdb;
+  -webkit-box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+}
+.work5 {
+  font-size: 15px;
+  z-index: 2;
+  padding: 25px 30px;
+  background: linear-gradient(45deg, black, transparent) 0% 0% / cover !important;
+  color: white !important;
+  border-bottom: 1px solid #dbdbdb;
+  -webkit-box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.1);
+}
+.all {
+  margin-top: 220px;
+}
+.main1 {
+  background-image: url("https://images7.alphacoders.com/101/thumb-1920-1011523.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dd {
+  background: linear-gradient(45deg, black, transparent) 0% 0% / cover !important;
+  color: white !important;
+}
+
+#singleIcon {
+  border: none !important;
+}
+
+#hearts {
+  cursor: pointer;
+}
+
+#hearts:hover {
+  color: #ff006a;
+}
+
+.s12 {
+  font-size: 50px;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+.s123 {
+  font-size: 45px;
+  margin-top: -10px;
+  margin-left: 40px;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+}
+
+.react-calendar button {
+  background: none;
+  border: none;
+  padding: 13px;
+}
+
+.react-calendar button:hover {
+  background: #dfe1e2;
+}
+
+#calenderCheckIn {
+  display: none;
+}
+
+#calenderCheckIn.active {
+  display: block;
+}
+
+#calenderCheckOut {
+  display: none;
+}
+
+#calenderCheckOut.active {
+  display: block;
+}
+
+.active {
+}
+
+button:focus {
+  outline: none;
+}
+.Showcase .react-component {
+  width: calc(100% - 10%);
+  max-width: 1110px;
+  margin-top: -136px;
+  margin-bottom: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  color: #dfe1e2;
+  font-size: 19px;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+  color: #dfe1e2;
+  cursor: auto;
+}
+
+.react-calendar {
+  border-radius: 4px;
+  width: 350px;
+  max-width: 100%;
+  background: white;
+  font: inherit;
+  line-height: 1.125em;
+  border: 0;
+  overflow: hidden;
+}
+.react-calendar__navigation button {
+  background: none;
+  border: none;
+}
+.react-calendar__tile--active {
+  background: #006edc !important;
+  color: white;
+}

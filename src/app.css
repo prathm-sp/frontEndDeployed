@@ -1,0 +1,8 @@
+.login__page {
+  display: flex;
+  justify-content: center;
+}
+
+.login__page > img {
+  height: 30vh;
+}

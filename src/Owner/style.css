@@ -1,0 +1,19 @@
+.Owner__Dashboard__photos {
+  min-width: 20vw;
+  max-width: 20vw;
+  min-height: 34vh;
+  max-height: 34vh;
+  box-shadow: rgb(0, 0, 0) 1px 0px 10px -1px;
+}
+
+.navbar__span:hover {
+  color: #d2bfda !important;
+}
+
+.MuiSvgIcon-root {
+  border: none !important;
+}
+
+#acceptIcon {
+  border: none !important;
+}
