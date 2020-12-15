@@ -296,7 +296,7 @@ function Index(props) {
           background:
             "url(https://images7.alphacoders.com/101/thumb-1920-1011523.jpg)",
           height: "auto",
-          minHeight: "136vh",
+          minHeight: "200vh",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
@@ -345,19 +345,7 @@ function Index(props) {
         <Grid container style={{ visibility: "hidden" }}>
           .
         </Grid>
-        <Grid container xs={12} align="center">
-          <Grid item xs={12}>
-            <p
-              style={{
-                fontSize: "23px",
-                color: "white",
-                fontWeight: "bolder",
-              }}
-            >
-              Account Setting
-            </p>
-          </Grid>
-        </Grid>
+     
         <Grid container style={{ visibility: "hidden" }}>
           .
         </Grid>
@@ -370,7 +358,8 @@ function Index(props) {
         </Grid>
         <Grid item xs={1}></Grid>
         <div className="Account__setting">
-          <div className="sub__setting" id="Account__setting__blur">
+          <div className="sub__setting" id="Account__setting__blur" style={{color
+          :"white"}}>
             <span
               style={{ fontSize: 20, fontWeight: "bolder", color: "white" }}
             >

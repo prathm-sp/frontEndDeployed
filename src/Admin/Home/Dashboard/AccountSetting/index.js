@@ -298,7 +298,7 @@ function Index(props) {
           background:
             "url(https://images7.alphacoders.com/101/thumb-1920-1011523.jpg)",
           height: "auto",
-          minHeight: "136vh",
+          minHeight: "200vh",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
@@ -355,19 +355,7 @@ function Index(props) {
         <Grid container style={{ visibility: "hidden" }}>
           .
         </Grid>
-        <Grid container xs={12} align="center">
-          <Grid item xs={12}>
-            <p
-              style={{
-                fontSize: "23px",
-                color: "white",
-                fontWeight: "bolder",
-              }}
-            >
-              Account Setting
-            </p>
-          </Grid>
-        </Grid>
+     
         <Grid container style={{ visibility: "hidden" }}>
           .
         </Grid>
@@ -379,7 +367,8 @@ function Index(props) {
           .
         </Grid>
         <div className="Account__setting">
-          <div className="sub__setting" id="Account__setting__blur">
+          <div className="sub__setting" id="Account__setting__blur" style={{color
+          :"white"}}> 
             <span
               style={{ fontSize: 20, fontWeight: "bolder", color: "white" }}
             >
@@ -428,15 +417,7 @@ function Index(props) {
             />
             <button onClick={(e) => handleClick(e, "mobile")}>change</button>
             <br />
-            <label>Address</label>
-            <br />
-            <input
-              value={client?.user?.address}
-              name="address"
-              onChange={handleChange}
-            />
-            <button onClick={(e) => handleClick(e, "address")}>change</button>
-            <br />
+             <br />
             <br />
             <br />
             <button id="delete" onClick={handleDeleteClick}>
@@ -535,6 +516,7 @@ function Index(props) {
 }
 
 function mapStateToProps(state) {
+  console.log(state.admin)
   return {
     user: state.user,
     owner: state.owner,

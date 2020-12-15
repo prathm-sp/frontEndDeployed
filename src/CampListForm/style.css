@@ -11,6 +11,12 @@
   font-weight: bolder !important;
 }
 
+.ck-rounded-corners .ck.ck-dropdown .ck-dropdown__panel .ck-list, .ck.ck-dropdown .ck-dropdown__panel .ck-list.ck-rounded-corners {
+  border-radius: var(--ck-border-radius);
+  background: black !important;
+  border-top-left-radius: 0;
+}
+
 .MuiSvgIcon-root:focus {
   border: none;
 }

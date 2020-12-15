@@ -36,26 +36,33 @@ const {
 var imagePreview = [];
 
 function CampUserForm5(props) {
+  var camp = localStorage.getItem('campUserForm1')
+  const name = (JSON.parse(camp));
+  console.log(name.originalName)
   var campName = props?.campDetails?.campDetails?.originalName;
   const history = useHistory();
-  var [imagePreviewUrl, setImagePreviewUrl] = useState([]);
-
+  var [imagePreviewUrl , setImagePreviewUrl] = useState([]);
+ 
   var [files, setFiles] = useState([]);
 
   async function onImageChange(e) {
-    const reader = new FileReader();
-    reader?.addEventListener("load", (event) => {
-      setImagePreviewUrl((imagePreviewUrl) => [
-        ...imagePreviewUrl,
-        event?.target?.result,
-      ]);
-    });
-    reader?.readAsDataURL(e?.target?.files?.[0]);
-
-    let copy = [...files];
-    copy.push(e?.target?.files?.[0]);
-
-    setFiles(copy);
+    try {
+      const reader = new FileReader();
+      reader?.addEventListener("load", (event) => {
+        setImagePreviewUrl((imagePreviewUrl) => [
+          ...imagePreviewUrl,
+          event?.target?.result,
+        ]);
+      });
+      reader?.readAsDataURL(e?.target?.files?.[0]);
+  
+      let copy = [...files];
+      copy.push(e?.target?.files?.[0]);
+  
+      setFiles(copy);
+    } catch (error) {
+      return null;
+    }
   }
 
   const handleClick = () => {
@@ -78,7 +85,7 @@ function CampUserForm5(props) {
     }
     await data.append("image", files);
     axios
-      .post("/owner/upload/image", data, { headers: { camp_name: campName } })
+      .post("/owner/upload/image", data, { headers: { camp_name: name?.originalName } })
       .then(async (res) => {
         await toast.info("Images Uploaded Successfully", {
           position: toast.POSITION.TOP_CENTER,

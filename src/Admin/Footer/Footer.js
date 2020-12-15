@@ -82,11 +82,11 @@ function Index() {
               </div>
               <div class="phone">
                 <span class="fas fa-phone-alt"></span>
-                <span class="text">+91 8454838483</span>
+                <span class="text">+91 9999444422</span>
               </div>
               <div class="email">
                 <span class="fas fa-envelope"></span>
-                <span class="text">prathmesh@gmail.com</span>
+                <span class="text">lampacamp@gmail.com</span>
               </div>
             </div>
           </div>
